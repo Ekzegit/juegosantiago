@@ -21,5 +21,5 @@ $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-header("Location: adiosemail.php");
+header("Location: adiosemail.html");
 ?>
