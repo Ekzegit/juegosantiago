@@ -1,0 +1,58 @@
+# Ignorar archivos y carpetas comunes para proyectos web
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.env
+/dist/
+/build/
+/.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+
+# Ignorar archivos de sistema
+*.bak
+*.swp
+
+# Ignorar dependencias de paquetes
+package-lock.json
+yarn.lock
+
+# Ignorar archivos de salida de compilación
+*.out
+*.class
+
+# Ignorar carpetas de configuración de IDE
+/.vs/
+
+# Ignorar archivos de configuración de usuario
+*.user
+*.suo
+
+# Ignorar archivos de bases de datos
+*.db
+
+# Ignorar carpetas de caché
+.cache/
+
+# Ignorar archivos de imágenes generados
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignorar archivos PDF
+*.pdf
+
+# Ignorar archivos ZIP y RAR
+*.zip
+*.rar
+
+# Ignorar archivos de backup
+*~
